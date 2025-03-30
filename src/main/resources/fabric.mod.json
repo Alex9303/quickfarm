@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "quickfarm",
+	"version": "1.3",
+	"name": "QuickFarm",
+	"description": "A mod that allows players to automatically replant crops when interacting with mature plants.",
+	"authors": [
+		"toomanybugs1",
+		"Alex9303"
+	],
+	"contact": {
+		"homepage": "https://github.com/Alex9303/quickfarm",
+		"sources": "https://github.com/Alex9303/quickfarm"
+	},
+	"license": "MIT",
+	"icon": "assets/quickfarm/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"alex9303.quickfarm.QuickFarm"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
